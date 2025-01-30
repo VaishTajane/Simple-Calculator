@@ -23,6 +23,8 @@ def calculator():
                 print(f"Result: {num1} / {num2} = {num1 / num2}")
             else:
                 print("Error! Division by zero.")
+        elif choice == '5':
+            print(f"Result: {num1} % {num2} = {num1 % num2}")
     else:
         print("Invalid input")
 
